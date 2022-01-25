@@ -5,15 +5,15 @@ services:
   - docker
 
 before_install:
-  - docker build -t ewa1234/lab_8 -f Dockerfile .
+  - docker build -t Szewczus/lab_8 -f Dockerfile .
 
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-east-2"
+  region: "us-east-1"
   app: "lab8"
   env: "Lab8-env"
-  bucket_name: "elasticbeanstalk-us-east-2-539708463733"
+  bucket_name: "elasticbeanstalk-us-east-1-737706731656"
   bucket_path: "docker-test"
   on:
     branch: master
