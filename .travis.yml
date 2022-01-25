@@ -14,7 +14,7 @@ deploy:
   app: "lab8"
   env: "Lab8-env"
   bucket_name: "elasticbeanstalk-us-east-1-737706731656"
-  bucket_path: "docker-test"
+  bucket_path: "lab8"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
