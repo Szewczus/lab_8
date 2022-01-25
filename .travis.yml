@@ -11,8 +11,8 @@ before_install:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "lab8-app"
-  env: "Lab8app-env"
+  app: "lab8"
+  env: "Lab8-env"
   bucket_name: "elasticbeanstalk-us-east-2-539708463733"
   bucket_path: "docker-test"
   on:
