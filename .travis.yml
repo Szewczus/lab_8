@@ -11,10 +11,10 @@ before_install:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
-  app: "lab8"
-  env: "Lab8-env"
+  app: "Fib1"
+  env: "Fib1-env"
   bucket_name: "elasticbeanstalk-us-east-1-737706731656"
-  bucket_path: "lab8"
+  bucket_path: "Fib1"
   edge: true
   on:
     branch: master
