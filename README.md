@@ -7,7 +7,7 @@
 * Uruchomienie triggera na Travis CI
 
 ## Link do strony
-http://lab8app-env.eba-ftuuwet3.us-east-2.elasticbeanstalk.com/
+http://lab8-env.eba-x6bphwm2.us-east-1.elasticbeanstalk.com/
 
 ## Available Scripts
 
